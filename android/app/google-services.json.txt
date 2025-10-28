@@ -1,0 +1,4 @@
+NO INCLUYO google-services.json por privacidad.
+
+Descarga tu archivo desde Firebase Console (Configuración del proyecto -> Agregar app Android -> Registrar app) y coloca el archivo
+`google-services.json` en `android/app/` antes de compilar.
