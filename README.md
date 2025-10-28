@@ -12,6 +12,3 @@ Instrucciones rápidas:
    - Para desplegar en Heroku, añade tu Git remote y push. Procfile incluido.
 3. En la app: usa el menú -> "Recibir Notificaciones" para obtener tu token FCM y enviarlo al endpoint `/registrar-usuario`.
 
-Notas de seguridad y despliegue:
-- No incluyo `google-services.json` por razones de privacidad. Debes obtenerlo en https://console.firebase.google.com/.
-- Para Heroku, usa variables de entorno y habilita el addon de SQLite (o mejor: Postgres en producción).
